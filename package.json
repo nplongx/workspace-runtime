@@ -1,0 +1,39 @@
+{
+  "name": "@runalith/workspace-runtime",
+  "version": "0.1.0",
+  "description": "Linux workspace mutation, durable write receipts, and CASE-01 snapshot runtime.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./filesystem": "./src/runtime/secure-filesystem.js",
+    "./workspace-write": "./src/runtime/workspace-write-capability-service.js",
+    "./case01": "./src/runtime/workflow/case01-snapshot-service.js"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md",
+    "CHANGELOG.md",
+    "docs/"
+  ],
+  "engines": { "node": ">=22.13.0" },
+  "os": ["linux"],
+  "scripts": {
+    "test": "node --test tests/*.mjs tests/*.js",
+    "check": "npm run check:manifest && node --check index.js && npm test",
+    "check:manifest": "node scripts/verify-source-manifest.mjs",
+    "pack:check": "npm pack --dry-run",
+    "test:packed-consumer": "node scripts/test-workspace-runtime-packed-consumer.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nplongx/workspace-runtime.git"
+  },
+  "bugs": { "url": "https://github.com/nplongx/workspace-runtime/issues" },
+  "homepage": "https://github.com/nplongx/workspace-runtime#readme",
+  "keywords": ["workspace-runtime", "workspace-write", "filesystem-security", "case01", "sqlite"]
+}

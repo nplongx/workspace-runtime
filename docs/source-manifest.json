@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "https://github.com/nplongx/runalith",
+  "sourceBranch": "integration/runalith-system-20261107",
+  "sourceBaseRevision": "29c24cfa2b6ead5704d26cf2746bc384f2938b80",
+  "sourceWorkingTreeWasDirty": true,
+  "includedDirtySourcePaths": [
+    "src/runtime/workspace-write-capability-service.js",
+    "tests/test-workspace-write-capability-service.mjs"
+  ],
+  "extractionEntryPoint": "src/runtime/workspace-runtime.js",
+  "integrationModel": "host-composed library; exact shared Workflow SQLite connection; not an independent service or datastore",
+  "fileCount": 32,
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "5d0ff589d4ed34b453b203b900817a48007c61b3c2a75efe195f2f25f370f92c",
+      "sizeBytes": 483
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "5612d77237e802533d338bd0e9973095d4a81a4376f55e172a20024021cc0784",
+      "sizeBytes": 40
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "c58cd7370189d2727b061eb67cea654faf53c4ad429247af48a52593084580a9",
+      "sizeBytes": 401
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "sizeBytes": 1056
+    },
+    {
+      "path": "README.md",
+      "sha256": "ce7f4f05a257c498d5c8c688e6eace4caea6e7ce704be22cf2f993a3f1c7c513",
+      "sizeBytes": 10101
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "7629599a1fd4426003ccdc6607ec1e8dfe94c4ced3c472d65fce725ab96bbf2b",
+      "sizeBytes": 3925
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "82835a6f88aedbd66ec16772e643f7462708fe17222151f61126180ba7943d69",
+      "sizeBytes": 761
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "fe4ee8f3b8d53594f8e84f6586229319faf5d31fdb3519052024d9e5d4c40a5c",
+      "sizeBytes": 6469
+    },
+    {
+      "path": "docs/integration.md",
+      "sha256": "04ab32b41d32d449e5f14fc0967842e3e4322f1ceb3640b065eca5af1d708432",
+      "sizeBytes": 6262
+    },
+    {
+      "path": "docs/source-lineage.md",
+      "sha256": "098b9e2c01020ab9933bff4d2cd00ecd63493af07dd3578a9af7992e3fa92859",
+      "sizeBytes": 2908
+    },
+    {
+      "path": "docs/terminology.md",
+      "sha256": "070a5e08eeb8e5f5bdec625c184f4ee17b7e4d1bd22186544feacd11a8545b94",
+      "sizeBytes": 1957
+    },
+    {
+      "path": "index.js",
+      "sha256": "6729a0e5665497b6874e7b6eb7be8ca74c13aa10f55f5b3526599eb312951bd5",
+      "sizeBytes": 2258
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "3a67d6c9c99114e386e861d1d23244cb1a3ef3c103f49757cb03b8e5f9c7941a",
+      "sizeBytes": 336
+    },
+    {
+      "path": "package.json",
+      "sha256": "304caf7bf47bd019a12014fbd6452fbcceb5d3620efcabfc142fe5b2b864e225",
+      "sizeBytes": 1350
+    },
+    {
+      "path": "scripts/test-workspace-runtime-packed-consumer.mjs",
+      "sha256": "16f5164cb5842982d6d8a5aa57bcc19eba9cf7cfae19e2d1c4cbfd61be26e4ae",
+      "sizeBytes": 5037
+    },
+    {
+      "path": "scripts/verify-source-manifest.mjs",
+      "sha256": "d546e67820e66830d190bfa19ef82bac52a9499375e95ca6079cdbef67b2fa80",
+      "sizeBytes": 2819
+    },
+    {
+      "path": "src/runtime/secure-filesystem.js",
+      "sha256": "007947ab76be75d1eadf2382bcc0a7838134de7b6b37143d42635387e697d59a",
+      "sizeBytes": 13469
+    },
+    {
+      "path": "src/runtime/strict-json.js",
+      "sha256": "9e1f3b865f0f11a62e33592c333f617613a02309cc0d3357e95fc451d9ac736a",
+      "sizeBytes": 8484
+    },
+    {
+      "path": "src/runtime/workflow/case01-artifact-acceptance.js",
+      "sha256": "a760ede438b78627e2d4b0a70060c315181c6cd80694cbbb9240af1f28f9b9d2",
+      "sizeBytes": 28692
+    },
+    {
+      "path": "src/runtime/workflow/case01-ports.js",
+      "sha256": "457c6d09b75c4b52b949765508b487f50054fc564edf38bbccdfb1136f7e8153",
+      "sizeBytes": 2721
+    },
+    {
+      "path": "src/runtime/workflow/case01-snapshot-service.js",
+      "sha256": "b49b129c9ac0e58325c6a1e67ea5687db8de09b4a02bb92954dbdcea477f9614",
+      "sizeBytes": 33214
+    },
+    {
+      "path": "src/runtime/workflow/case01-snapshot-store.js",
+      "sha256": "4fb96305ae7cce2d8e2860c097714832997eda2f69696163f295789317c68def",
+      "sizeBytes": 6030
+    },
+    {
+      "path": "src/runtime/workspace-ports.js",
+      "sha256": "facf72b5cafcb7ff1049c03801d5e1fcb79a28bf9c3eb104e3551baa727cbdfe",
+      "sizeBytes": 4335
+    },
+    {
+      "path": "src/runtime/workspace-runtime.js",
+      "sha256": "380bb58cd41f6d13ad36d39fcfb175192da4527b7bb83cb3e3707b3a5373e1b7",
+      "sizeBytes": 3348
+    },
+    {
+      "path": "src/runtime/workspace-write-capability-service.js",
+      "sha256": "fd326f4ab06391d09d98ff2648b9f8ee05e852dc800ce5b2d020a5ae32c61473",
+      "sizeBytes": 26577
+    },
+    {
+      "path": "src/runtime/workspace-write-receipt-store.js",
+      "sha256": "8e6474c9df2d53948847e4a39f6551e0f70074bf0c2216304094c9b6482c591d",
+      "sizeBytes": 11765
+    },
+    {
+      "path": "tests/test-case01-artifact-acceptance.js",
+      "sha256": "9107b1e0f3123f9dcfe654b789e4e86906e4ffa590483485713762714dcbf271",
+      "sizeBytes": 15423
+    },
+    {
+      "path": "tests/test-case01-snapshot-store.mjs",
+      "sha256": "10bf756c02bc425dfefe95cc88113dd53c20444f92baac930fe892eb7db3c806",
+      "sizeBytes": 3538
+    },
+    {
+      "path": "tests/test-workspace-ports.mjs",
+      "sha256": "b8b3c572d32ae2d5d0476d08c17674409750e25a699da7e9d2dcad6cca1ad25c",
+      "sizeBytes": 2752
+    },
+    {
+      "path": "tests/test-workspace-runtime-composition.mjs",
+      "sha256": "cc57d0c353248a51083e0e9b4887f8696cb6f6c871ad9d3076942c7330bfde72",
+      "sizeBytes": 4230
+    },
+    {
+      "path": "tests/test-workspace-write-capability-service.mjs",
+      "sha256": "fe7ab58fc847d38f2a81fe16e969f70caf52588635287119b91b3aa1c02ed726",
+      "sizeBytes": 15367
+    },
+    {
+      "path": "tests/test-workspace-write-receipt-store.mjs",
+      "sha256": "383e8d7002676baac9a1d6e98aa99c6a14e0c763fc43a4092610896e850a44be",
+      "sizeBytes": 4713
+    }
+  ]
+}
